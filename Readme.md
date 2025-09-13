@@ -1,72 +1,90 @@
-# Walmart-Sales-Dashboard.
+# 📊 Walmart Sales Dashboard  
 
-## Problem Statement
-
-The objective is to develop a comprehensive and interactive sales dashboard using Power BI to empower Walmart's management and operational teams with real-time insights into sales performance, trends, and key metrics across various dimensions. The dashboard should facilitate data-driven decision-making, enhance visibility into sales operations, and identify areas for improvement.
-
-
-
-![1)All]
-
-### PowerBI Link-
-https://app.powerbi.com/
-
-### Steps followed 
-
-- Step 1 : Load data into Power BI Desktop, dataset is a csv file.
-- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
-- Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : It was observed that in none of the columns errors & empty values were present except column named "Delivery Delay".
-- Step 5 : For calculating average delay time, null values were not taken into account as only less than 1% values are null in this column(i.e column named "Deivery Delay") 
-- Step 6 : In the report view, under the view tab, theme was selected.
-- Step 7 : Since the data contains various regions, thus in order to represent regions, a new visual was added using the three ellipses in the visualizations pane in report view. 
-- Step 8 : Visual filters (Slicers) were added for four fields named Central", "East", "West" & "South".
-- ![2)Central]
-- ![3)East]
-- ![4)South]
-- ![5)West]
-- Step 9 : Two card visuals were added to the canvas, one representing average sales  & other representing average profit.
-           Using visual level filter from the filters pane, basic filtering was used & null values were unselected for consideration into average calculation.
-           
-           Although, by default, while calculating average, blank values are ignored.
-- 
-
-  
-In our dataset, Some parameters were assigned value 0, representing those parameters are not applicable for some customers.
-
-All these values have been ignored while calculating average rating for each of the parameters mentioned above.
-
-- Step 13 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & similarly using image option company's logo was added to the report design area. 
-
-- Step 14 : Calculated column was created in which, customers were grouped into various age groups.
-
-# Walmart Sales Dashboard Insights
-
-## 📊 Key Insights
-
-### 1. **Annual Sales and Profit**
-   - The total sales for the year amounted to **$154.9K**, while the total profit was **$21.95K**, indicating a profit margin of approximately **14.2%**.
-
-### 2. **Seasonal Trends**
-   - Sales peaked during **December**, driven by holiday shopping, but profit saw significant increases in **April, May, June**, and **December**, highlighting effective cost management and high-margin product sales during these months.
-
-### 3. **Regional Performance**
-   - **California** emerged as the top-performing state, boasting the highest sales and profit figures.
-
-### 4. **Payment Methods**
-   - The most preferred mode of payment was **online**, followed by **Cash on Delivery (COD)** and **credit cards**.
-
-### 5. **Delivery Efficiency**
-   - The average delivery time for online orders was **4 days**, indicating efficient logistics and prompt service.
-
-### 6. **Product Performance**
-   - **Phones** were the highest selling product, while **furniture** was the leading category in sales.
-
-### 7. **Regional Sales and Profit**
-   - The **Central** region dominated both sales and profit figures, followed by the **West**, **East**, and **South** regions, respectively.
+## 📝 Problem Statement  
+The objective of this project is to design a **Power BI Sales Dashboard** for Walmart that provides management with **real-time insights** into sales performance, trends, and key metrics across different dimensions.  
+The dashboard helps drive **data-driven decision making**, improves visibility into sales operations, and highlights areas for improvement.  
 
 ---
 
-By analyzing these insights, Walmart can enhance strategic planning, optimize regional performance, and improve overall customer satisfaction.
+## 📂 Dataset  
+- Source: CSV file provided (sales dataset).  
+- Preprocessing: Data cleaning and transformation using **Power Query Editor**.  
+- Nulls: Only the `Delivery Delay` column had <1% null values (excluded in calculations).  
 
-        
+---
+
+## ⚙️ Steps Followed  
+
+1. **Loaded Data** → Imported CSV file into Power BI Desktop.  
+2. **Data Profiling** → Checked column quality, distribution, and profiling (entire dataset).  
+3. **Data Cleaning** → Removed nulls from calculations and ignored “0” values where parameters were not applicable.  
+4. **Theming** → Applied a consistent dashboard theme.  
+5. **Region-wise Analysis** → Added visuals for Central, East, West, and South.  
+6. **Slicers** → Filters added for regions.  
+7. **KPIs** → Card visuals for Average Sales and Average Profit.  
+8. **Customization** → Inserted company logo and grouped customers into age categories.  
+
+---
+
+## 📊 Key Insights  
+
+1. **Annual Sales & Profit**  
+   - Total Sales: **$154.9K**  
+   - Total Profit: **$21.95K**  
+   - Profit Margin: **14.2%**  
+
+2. **Seasonal Trends**  
+   - **Sales peak** in **December (Holiday season)**.  
+   - **Profit peak** in **April, May, June, and December** due to high-margin products.  
+
+3. **Regional Performance**  
+   - **California** is the top-performing state.  
+   - **Central Region** leads in sales & profit.  
+   - **West Region** ranks second.  
+   - **East Region** shows moderate growth.  
+   - **South Region** underperforms → needs promotional strategies.  
+
+4. **Payment Methods**  
+   - Most preferred: **Online Payments**, followed by **Cash on Delivery (COD)** and **Credit Cards**.  
+
+5. **Delivery Efficiency**  
+   - Average delivery time: **4 days** for online orders.  
+
+6. **Product Insights**  
+   - **Phones** → highest selling product.  
+   - **Furniture** → top revenue-generating category.  
+
+---
+
+## 📸 Dashboard Screenshots  
+
+- **Overall Dashboard**  
+  ![All](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/1)All.png)  
+
+- **Central Region**  
+  ![Central](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/2)Central.png)  
+
+- **East Region**  
+  ![East](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/3)East.png)  
+
+- **South Region**  
+  ![South](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/4)South.png)  
+
+- **West Region**  
+  ![West](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/5)West.png)  
+
+---
+
+## 🚀 Conclusion  
+The Walmart Sales Dashboard enables:  
+- Enhanced **strategic planning**.  
+- Region-specific growth strategies.  
+- Improved **delivery & payment efficiency**.  
+- Better customer satisfaction by identifying product and regional trends.  
+
+---
+
+## 🔗 Power BI Report Link  
+[View on Power BI](https://app.powerbi.com/)  
+
+---
