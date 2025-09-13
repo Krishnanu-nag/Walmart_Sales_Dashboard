@@ -1,5 +1,9 @@
 # 📊 Walmart Sales Dashboard  
 
+![Overall Dashboard](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/1_All.png)  
+
+---
+
 ## 📝 Problem Statement  
 The objective of this project is to design a **Power BI Sales Dashboard** for Walmart that provides management with **real-time insights** into sales performance, trends, and key metrics across different dimensions.  
 The dashboard helps drive **data-driven decision making**, improves visibility into sales operations, and highlights areas for improvement.  
@@ -58,20 +62,17 @@ The dashboard helps drive **data-driven decision making**, improves visibility i
 
 ## 📸 Dashboard Screenshots  
 
-### Overall Dashboard  
-![Overall](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/All.png)  
-
 ### Central Region  
-![Central](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/Central.png)  
+![Central](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/2_Central.png)  
 
 ### East Region  
-![East](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/East.png)  
+![East](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/3_East.png)  
 
 ### South Region  
-![South](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/South.png)  
+![South](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/4_South.png)  
 
 ### West Region  
-![West](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/West.png)  
+![West](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/5_West.png)  
 
 ---
 
