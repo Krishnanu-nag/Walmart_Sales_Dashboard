@@ -58,20 +58,20 @@ The dashboard helps drive **data-driven decision making**, improves visibility i
 
 ## 📸 Dashboard Screenshots  
 
-- **Overall Dashboard**  
-  ![All](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/1)All.png)  
+### Overall Dashboard  
+![Overall](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/All.png)  
 
-- **Central Region**  
-  ![Central](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/2)Central.png)  
+### Central Region  
+![Central](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/Central.png)  
 
-- **East Region**  
-  ![East](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/3)East.png)  
+### East Region  
+![East](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/East.png)  
 
-- **South Region**  
-  ![South](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/4)South.png)  
+### South Region  
+![South](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/South.png)  
 
-- **West Region**  
-  ![West](https://github.com/Krishnanu-nag/Walmart_Sales_Dashboard/blob/main/5)West.png)  
+### West Region  
+![West](https://raw.githubusercontent.com/Krishnanu-nag/Walmart_Sales_Dashboard/main/West.png)  
 
 ---
 
